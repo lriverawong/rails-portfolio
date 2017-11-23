@@ -1,0 +1,10 @@
+%h1 Create a new Portfolio
+= form_for(@portfolio_item) do |f|
+  .field
+    = f.label :title
+    = f.text_field :title
+  .field
+    = f.label :subtitle
+    = f.text_area :subtitle
+  .actions
+    = f.submit
