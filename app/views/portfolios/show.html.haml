@@ -1,0 +1,13 @@
+%h1 Show View
+
+= @portfolio_item.inspect
+
+%p Image
+= image_tag @portfolio_item.main_image
+
+%h1 
+  = "Portfolio id =  #{@portfolio_item.id}"
+%h1
+  = @portfolio_item.title
+%p
+  = @portfolio_item.subtitle
