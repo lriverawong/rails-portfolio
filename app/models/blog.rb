@@ -8,5 +8,8 @@ class Blog < ApplicationRecord
   friendly_id :title, use: :slugged
   # creation of blog after adding in friendly-id
   # Blog.create!(title: "another blog title", body: "a body text", topic_id: 2)
+  
+  # did not yet add in topics during item editing for Topic title validation
+
 
 end
